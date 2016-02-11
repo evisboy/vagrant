@@ -8,20 +8,17 @@
 
 ## Why Vagrant? 
  
-Nowadays web development gets more complex than ever and the same is with the development environment. 
-We have to work in group of people, big teams, departments connected over the world. 
-Everyone is a member of a project. Everyone need to be able to run and work on the projects. 
-Developers are spending countless hours, to build development environments. With everyone in a team working on their own machine, 
-with their own development tools on their own operating systems, it´s almost impossible to keep a consistent configuration across all the machines. Specially if you have to work with freelancers or consulting companies. 
+Web development is becoming more complex. Developers often have to work with other groups of people, on big teams, and in departments connected over the world. Everyone is a member of a project. Everyone needs to be able to run and work on projects. Developers are spending countless hours building development environments. With everyone in a team working on their own local environment, 
+with their own, preferred development tools, keeping development environments consisten has become almost impossible, especially if you have to work with freelancers or consulting companies. 
 
 ## What is Vagrant? 
 Vagrant is an impressive development tool, which lets you manage and support the virtualization of your development environment. 
-Instead of running the projects local on your computer and the different requirements and all dependencies of every project, 
-Vagrant gives the possibility to run each project in its own dedicated virtual environment. 
-The next time when you need to go back to a previous project, you don't need to worry about any potential conflicts with changes made to your development environment 
-(for example, if you have upgraded PHP, MySQL, or Apache on your local environment, or within the Vagrant environment for another project). 
-If you have to bring a new team member on board, they can be up and running in minutes while Vagrant will take care of all the software and services needed to run the project on their machine. 
-If you have one project, which uses one web server such as Apache, and another which uses Node, Vagrant lets you run these projects independently. 
+Instead of running the projects locally, with the different requirements and dependencies for every project, 
+Vagrant gives you the possibility to run each project in its own dedicated virtual environment.
+
+The next time when you need to go back to a previous project, you don't need to worry about any potential conflicts with changes made to your development environment. For example, performing an upgrade to PHP, MySQL, or Apache in your local environment, or within the Vagrant environment for another project. 
+
+If you have to bring a new team member on board, they can be up and running in minutes while Vagrant will take care of all the software and services needed to run the project. If you have one project, which uses one web server such as Apache, and another which uses Node, Vagrant lets you run these projects independently. 
 
 
 Development environments managed by Vagrant can run on local virtualized
